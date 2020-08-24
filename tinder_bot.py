@@ -5,3 +5,4 @@ from secrets import username, password
 
 class TinderBot():
     def __init__(self):
+         self.driver = webdriver.Chrome()
