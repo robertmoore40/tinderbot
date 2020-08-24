@@ -9,3 +9,5 @@ class TinderBot():
 
      def login(self):
         self.driver.get('https://tinder.com')
+
+         sleep(2)
