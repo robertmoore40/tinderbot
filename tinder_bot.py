@@ -13,3 +13,4 @@ class TinderBot():
         sleep(2)
         
         fb_btn = self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div/div/div[3]/div[2]/button')
+        fb_btn.click()
