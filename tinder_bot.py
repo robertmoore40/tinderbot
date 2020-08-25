@@ -34,3 +34,7 @@ class TinderBot():
 
         popup_2 = self.driver.find_element_by_xpath('//*[@id="modal-manager"]/div/div/div/div/div[3]/button[1]')
         popup_2.click()
+
+    def like(self):
+        like_btn = self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[2]/button[3]')
+        like_btn.click()
