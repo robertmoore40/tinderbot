@@ -58,6 +58,6 @@ class TinderBot():
         popup_3.click()
 
 
- def close_match(self):
+    def close_match(self):
         match_popup = self.driver.find_element_by_xpath('//*[@id="modal-manager-canvas"]/div/div/div[1]/div/div[3]/a')
         match_popup.click()
