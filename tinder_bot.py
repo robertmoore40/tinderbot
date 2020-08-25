@@ -26,3 +26,5 @@ class TinderBot():
 
         login_btn = self.driver.find_element_by_xpath('//*[@id="u_0_0"]')
         login_btn.click()
+
+        self.driver.switch_to_window(base_window)
