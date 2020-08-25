@@ -47,3 +47,9 @@ class TinderBot():
         while True:
             sleep(0.5)
             try:
+                self.like()
+            except Exception:
+                try:
+                    self.close_popup()
+                except Exception:
+                    self.close_match()
