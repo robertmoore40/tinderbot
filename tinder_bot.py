@@ -20,3 +20,6 @@ class TinderBot():
 
         email_in = self.driver.find_element_by_xpath('//*[@id="email"]')
         email_in.send_keys(username)
+
+        pw_in = self.driver.find_element_by_xpath('//*[@id="pass"]')
+        pw_in.send_keys(password)
