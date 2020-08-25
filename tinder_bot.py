@@ -42,3 +42,8 @@ class TinderBot():
     def dislike(self):
         dislike_btn = self.driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[2]/button[1]')
         dislike_btn.click()
+
+    def auto_swipe(self):
+        while True:
+            sleep(0.5)
+            try:
