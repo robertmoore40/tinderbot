@@ -17,3 +17,6 @@ class TinderBot():
 
         base_window = self.driver.window_handles[0]
         self.driver.switch_to_window(self.driver.window_handles[1])
+
+        email_in = self.driver.find_element_by_xpath('//*[@id="email"]')
+        email_in.send_keys(username)
